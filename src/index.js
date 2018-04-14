@@ -10,7 +10,7 @@ import notesDoesNotExist from './fieldSpecificValidators/notesDoesNotExist';
 import priceDoesNotExist from './fieldSpecificValidators/priceDoesNotExist';
 import isValidPrice from './onChange/isValidPrice';
 
-exports = {
+module.exports = {
   doErrorsExist,
   amazonUrlDoesNotExist,
   amazonUrlExistsButIsInvalid,
