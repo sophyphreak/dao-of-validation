@@ -10,7 +10,7 @@ import notesDoesNotExist from './fieldSpecificValidators/notesDoesNotExist';
 import priceDoesNotExist from './fieldSpecificValidators/priceDoesNotExist';
 import isValidPrice from './onChange/isValidPrice';
 
-const Validators = {
+exports = {
   doErrorsExist,
   amazonUrlDoesNotExist,
   amazonUrlExistsButIsInvalid,
@@ -23,5 +23,3 @@ const Validators = {
   priceDoesNotExist,
   isValidPrice
 };
-
-module.exports = Validators;
