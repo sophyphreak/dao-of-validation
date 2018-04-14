@@ -8,6 +8,7 @@ import emailExistsButIsInvalid from './fieldSpecificValidators/emailExistsButIsI
 import fictionIsSelectedButGenreIsNotSelected from './fieldSpecificValidators/fictionIsSelectedButGenreIsNotSelected';
 import notesDoesNotExist from './fieldSpecificValidators/notesDoesNotExist';
 import priceDoesNotExist from './fieldSpecificValidators/priceDoesNotExist';
+import websiteUrlIsInvalid from './fieldSpecificValidators/websiteUrlIsInvalid';
 import isValidPrice from './onChange/isValidPrice';
 
 module.exports = {
@@ -21,5 +22,6 @@ module.exports = {
   fictionIsSelectedButGenreIsNotSelected,
   notesDoesNotExist,
   priceDoesNotExist,
+  websiteUrlIsInvalid,
   isValidPrice
 };
