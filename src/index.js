@@ -5,7 +5,6 @@ import authorBioDoesNotExist from './fieldSpecificValidators/authorBioDoesNotExi
 import descriptionDoesNotExist from './fieldSpecificValidators/descriptionDoesNotExist';
 import emailDoesNotExist from './fieldSpecificValidators/emailDoesNotExist';
 import emailExistsButIsInvalid from './fieldSpecificValidators/emailExistsButIsInvalid';
-import fictionIsSelectedButGenreIsNotSelected from './fieldSpecificValidators/fictionIsSelectedButGenreIsNotSelected';
 import notesDoesNotExist from './fieldSpecificValidators/notesDoesNotExist';
 import releaseTextDoesNotExist from './fieldSpecificValidators/releaseTextDoesNotExist';
 import priceDoesNotExist from './fieldSpecificValidators/priceDoesNotExist';
@@ -20,7 +19,6 @@ module.exports = {
   descriptionDoesNotExist,
   emailDoesNotExist,
   emailExistsButIsInvalid,
-  fictionIsSelectedButGenreIsNotSelected,
   notesDoesNotExist,
   releaseTextDoesNotExist,
   priceDoesNotExist,
