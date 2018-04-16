@@ -1,7 +1,5 @@
-import numberOfErrors from "./numberOfErrors";
+import numberOfErrors from './numberOfErrors';
 
-const doErrorsExist = (error) => (
-  numberOfErrors(error) > 0
-);
+const doErrorsExist = error => numberOfErrors(error) > 0;
 
 export default doErrorsExist;
