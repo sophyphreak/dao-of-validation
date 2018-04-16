@@ -9,6 +9,7 @@ import notesDoesNotExist from './fieldSpecificValidators/notesDoesNotExist';
 import releaseTextDoesNotExist from './fieldSpecificValidators/releaseTextDoesNotExist';
 import priceDoesNotExist from './fieldSpecificValidators/priceDoesNotExist';
 import websiteUrlIsInvalid from './fieldSpecificValidators/websiteUrlIsInvalid';
+import thisIsEmpty from './general/thisIsEmpty';
 import isValidPrice from './onChange/isValidPrice';
 
 module.exports = {
@@ -23,5 +24,6 @@ module.exports = {
   releaseTextDoesNotExist,
   priceDoesNotExist,
   websiteUrlIsInvalid,
+  thisIsEmpty,
   isValidPrice
 };
